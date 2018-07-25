@@ -17,6 +17,7 @@ const Subcategory = ({ data = { menuItems: [] }, ...props }) => (
 const Logo = () => (
     <h1>
       menu
+      <style jsx>{'h1 {margin:0; grid-column-start: 2;justify-self: flex-end;padding: 20px; font-size: 5rem;}'}</style>
     </h1>
   );
 
