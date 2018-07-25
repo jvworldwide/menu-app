@@ -1231,7 +1231,7 @@ module.exports = function(originalModule) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* WEBPACK VAR INJECTION */(function(process, module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Index; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_styled_jsx_style__ = __webpack_require__("./node_modules/styled-jsx/style.js");
@@ -1282,17 +1282,17 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_react___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 21
         }
       }, __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__components_Menu__["a" /* default */], {
         data: this.props.data,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 22
         }
       }), __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_styled_jsx_style___default.a, {
         styleId: "1824508078",
-        css: "html,body{padding:0;margin:0;}*{box-sizing:border-box;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCNkIsQUFDbUIsQUFBK0IsVUFBdkIsU0FBQyxHQUF1QiIsImZpbGUiOiJwYWdlcy9pbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9qdi9sb2NhbC1kZXYvcHJpdmF0ZS9tZW51LWFwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBmZXRjaCBmcm9tIFwiaXNvbW9ycGhpYy11bmZldGNoXCI7XG5cbmltcG9ydCBNZW51IGZyb20gXCIuLi9jb21wb25lbnRzL01lbnVcIjtcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgSW5kZXggZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICBzdGF0aWMgYXN5bmMgZ2V0SW5pdGlhbFByb3BzKCkge1xuICAgIGNvbnN0IHVybCA9IGBodHRwOi8vbG9jYWxob3N0OiR7cHJvY2Vzcy5lbnYuUE9SVCB8fCAzMDAwfS9zdGF0aWMvZGF0YS5qc29uYDtcbiAgICBjb25zdCBvcHRpb25zID0geyBoZWFkZXJzOiB7IFwiQ29udGVudC1UeXBlXCI6IFwiYXBwbGljYXRpb24vanNvblwiIH0gfTtcbiAgICBjb25zdCB7IGRhdGEgfSA9IGF3YWl0IGZldGNoKHVybCwgb3B0aW9ucykudGhlbihyZXMgPT4gcmVzLmpzb24oKSk7XG4gICAgcmV0dXJuIHsgZGF0YSB9O1xuICB9XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8UmVhY3QuRnJhZ21lbnQ+XG4gICAgICAgICAgPE1lbnUgZGF0YT17dGhpcy5wcm9wcy5kYXRhfSAvPlxuICAgICAgICAgIDxzdHlsZSBnbG9iYWwganN4PnsnaHRtbCxib2R5e3BhZGRpbmc6MDttYXJnaW46MDt9Kntib3gtc2l6aW5nOmJvcmRlci1ib3g7fSd9PC9zdHlsZT5cbiAgICAgICAgPC9SZWFjdC5GcmFnbWVudD5cbiAgICApO1xuICB9XG59Il19 */\n/*@ sourceURL=pages/index.js */"
+        css: "html,body{padding:0;margin:0;}*{box-sizing:border-box;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2VzL2luZGV4LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXNCNkIsQUFDbUIsQUFBK0IsVUFBdkIsU0FBQyxHQUF1QiIsImZpbGUiOiJwYWdlcy9pbmRleC5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9qdi9sb2NhbC1kZXYvcHJpdmF0ZS9tZW51LWFwcCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBmZXRjaCBmcm9tIFwiaXNvbW9ycGhpYy11bmZldGNoXCI7XG5cbmltcG9ydCBNZW51IGZyb20gXCIuLi9jb21wb25lbnRzL01lbnVcIjtcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgSW5kZXggZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICBzdGF0aWMgYXN5bmMgZ2V0SW5pdGlhbFByb3BzKCkge1xuICAgIGNvbnN0IHVybCA9IGBodHRwczovL2FwaS11c2Vhc3QuZ3JhcGhjbXMuY29tL3YxL2NqazFpOHVxdjEwZmkwMWRnbDRiZG9uODEvbWFzdGVyYDtcbiAgICBjb25zdCBvcHRpb25zID0geyBcbiAgICAgIG1ldGhvZDogXCJQT1NUXCIsIFxuICAgICAgaGVhZGVyczogeyBcIkNvbnRlbnQtVHlwZVwiOiBcImFwcGxpY2F0aW9uL2pzb25cIiB9LFxuICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoe1xuICAgICAgICBxdWVyeTogJ3tjYXRlZ29yaWVzIHtuYW1lIHN1YmNhdGVnb3JpZXMge25hbWUgbWVudUl0ZW1zIHtkZXNjcmlwdGlvbiBwcmljZX19fX0nXG4gICAgICB9KVxuICAgICB9O1xuICAgIGNvbnN0IHsgZGF0YSB9ID0gYXdhaXQgZmV0Y2godXJsLCBvcHRpb25zKS50aGVuKHJlcyA9PiByZXMuanNvbigpKTtcbiAgICByZXR1cm4geyBkYXRhIH07XG4gIH1cbiAgcmVuZGVyKCkge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxSZWFjdC5GcmFnbWVudD5cbiAgICAgICAgICA8TWVudSBkYXRhPXt0aGlzLnByb3BzLmRhdGF9IC8+XG4gICAgICAgICAgPHN0eWxlIGdsb2JhbCBqc3g+eydodG1sLGJvZHl7cGFkZGluZzowO21hcmdpbjowO30qe2JveC1zaXppbmc6Ym9yZGVyLWJveDt9J308L3N0eWxlPlxuICAgICAgICA8L1JlYWN0LkZyYWdtZW50PlxuICAgICk7XG4gIH1cbn0iXX0= */\n/*@ sourceURL=pages/index.js */"
       }));
     }
   }], [{
@@ -1307,11 +1307,15 @@ function (_React$Component) {
           while (1) {
             switch (_context.prev = _context.next) {
               case 0:
-                url = "http://localhost:".concat(process.env.PORT || 3000, "/static/data.json");
+                url = "https://api-useast.graphcms.com/v1/cjk1i8uqv10fi01dgl4bdon81/master";
                 options = {
+                  method: "POST",
                   headers: {
                     "Content-Type": "application/json"
-                  }
+                  },
+                  body: JSON.stringify({
+                    query: '{categories {name subcategories {name menuItems {description price}}}}'
+                  })
                 };
                 _context.next = 4;
                 return __WEBPACK_IMPORTED_MODULE_3_isomorphic_unfetch___default()(url, options).then(function (res) {
@@ -1361,7 +1365,7 @@ function (_React$Component) {
       }
     })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
   
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/process/browser.js"), __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 

@@ -5,8 +5,14 @@ import Menu from "../components/Menu";
 
 export default class Index extends React.Component {
   static async getInitialProps() {
-    const url = `http://localhost:${process.env.PORT || 3000}/static/data.json`;
-    const options = { headers: { "Content-Type": "application/json" } };
+    const url = `https://api-useast.graphcms.com/v1/cjk1i8uqv10fi01dgl4bdon81/master`;
+    const options = { 
+      method: "POST", 
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        query: '{categories {name subcategories {name menuItems {description price}}}}'
+      })
+     };
     const { data } = await fetch(url, options).then(res => res.json());
     return { data };
   }
